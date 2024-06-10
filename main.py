@@ -10,12 +10,12 @@ from SimulationTools import ChannelSimulator, PlotVisualizer, NpEncoder, Simulat
 if __name__ == "__main__":
     # python3 main.py test3.json False Results/Test3/prova1
     abs_conf_path = os.path.abspath(sys.argv[1])
-    if sys.argv[2] != 'False':
-        abs_reference_path = os.path.abspath(sys.argv[2])
-    else:
-        abs_reference_path = False
-    Path(sys.argv[3]).mkdir(parents=True, exist_ok=True)
-    os.chdir(sys.argv[3])   # Moves to Results/Test3/prova1
+    #if sys.argv[2] != 'False':
+    #    abs_reference_path = os.path.abspath(sys.argv[2])
+    #else:
+    #    abs_reference_path = False
+    Path(sys.argv[2]).mkdir(parents=True, exist_ok=True)
+    os.chdir(sys.argv[2])   # Moves to Results/Test3/prova1
     time_start = datetime.now()
 
     chann_sim = ChannelSimulator(abs_conf_path)
