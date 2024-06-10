@@ -222,7 +222,7 @@ class ChannelSimulator:
                         samples_undetected += 1
                         results_array.append(error_mask.sum())
 
-        print('ber: '+ str(ber) + '\t\t\tn: ' + str(n))
+        print('BER: '+ str(ber) + '\t\t\tN: ' + str(n))
         # Print to file the generated error masks per BER. Each line will be in the form error_mask:injected_frame.
         # json_array = {'frames': frames}
         # array_to_file = json.dumps(json_array, indent=4, cls=NpEncoder)
