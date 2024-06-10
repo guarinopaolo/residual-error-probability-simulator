@@ -27,6 +27,10 @@ In order to run the simulation, just type the following.
 ```sh
 python3 main.py <tests/test_file.json> results/<output_directory>
 ```
+For instance, try:
+```sh
+python3 main.py tests/test8.json results/test8/01
+```
 
 ## License
 
