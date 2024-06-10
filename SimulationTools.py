@@ -643,6 +643,7 @@ class PlotVisualizer:
             # print(float(q))
             # self.plot(maxPre_x, maxPre_y, x_values_mc, y_values_mc, 
             #           analytical_x_values, analytical_y_values, float(q), is_dict)
+            plt.close()
             if(q == bounded_x_values[len(bounded_values)-1]):
                 plt.figure(figsize=(15, 8))
                 # self.plot(maxPre_x, maxPre_y, x_values_mc, y_values_mc, 
