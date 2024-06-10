@@ -606,6 +606,7 @@ class PlotVisualizer:
         #filename = 'Graphs/IS_q_{}.pdf'.format(q)
         #plt.savefig(filename)
         plt.savefig(os.path.join(directory, filename))
+        plt.close()
         #plt.show()
 
     def plot_importance_sampling(self, pre_dict: dict, is_dict: dict, maxPre_x: float):
