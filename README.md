@@ -25,7 +25,7 @@ The residual error probability simulator evaluates the residual error probabilit
 
 In order to run the simulation, just type the following.
 ```sh
-python3 main.py <tests/test_file.json> results/<output_directory>
+python3 main.py tests/<test_file.json> results/<output_directory>
 ```
 For instance, try:
 ```sh
