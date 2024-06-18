@@ -40,7 +40,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Paolo Guarino, Filippo Nevi, Paolo Dai Pra, Davide Quaglia, Tiziano Villa
 
-*Department of Computer Science, University of Verona, Italy*
+*Department of Engineering for Innovation Medicine, Department of Computer Science, University of Verona, Italy*
 
 ## Contacts
 
